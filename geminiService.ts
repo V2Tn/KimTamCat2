@@ -23,7 +23,7 @@ QUY TẮC:
 - Nhắc đến triết lý là "Khai thông trí tuệ - Chuyển hóa vận mệnh".`;
 
 export async function analyzeFengShui(userInfo: UserInfo): Promise<string> {
-  const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+  const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
   
   const prompt = `
     Dữ liệu người dùng đăng ký tại Học Viện Minh Triết Phương Đông:
