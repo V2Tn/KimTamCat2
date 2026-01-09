@@ -57,7 +57,7 @@ PHONG CÁCH:
 - Các đầu mục tiêu đề phụ phải in đậm và nằm trên một dòng riêng biệt.`;
 
 export async function analyzeFengShui(userInfo: UserInfo): Promise<string> {
-  const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+  const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
   
   const typeText = userInfo.serviceType === 'car' ? 'TƯ VẤN MUA XE' : 'TƯ VẤN SINH MỔ';
   const targetLabel = userInfo.serviceType === 'car' ? 'Ngày dự định mua xe' : 'Ngày dự định sinh mổ';
