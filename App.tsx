@@ -360,7 +360,7 @@ const App: React.FC = () => {
                         <div className="absolute top-4 left-4 z-20">
                           <span className="bg-[#002b33]/80 backdrop-blur-md text-[#b07d35] px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest border border-[#b07d35]/30">Thiên mệnh giàu sang</span>
                         </div>
-                        <img src="https://kimtamcat.com.vn/wp-content/uploads/2025/05/HKT_0045-1-800x1200.jpg" className="w-full h-full object-cover transition-transform duration-[2000ms] group-hover:scale-110" alt="Thiên Mệnh Giàu Sang 1" />
+                        <img src="https://kimtamcat.com.vn/wp-content/uploads/2025/05/HKT_0039-800x533.jpg" className="w-full h-full object-cover transition-transform duration-[2000ms] group-hover:scale-110" alt="Thiên Mệnh Giàu Sang 1" />
                         <div className="absolute inset-0 bg-gradient-to-t from-[#002b33]/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
                       </div>
                     </div>
